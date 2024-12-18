@@ -6,7 +6,7 @@ STAGE_SECOND_FRAME = 1
 STAGE_DEFAULT_FRAME = 2
 kMinNumFeature = 1500
 
-lk_params = dict(winSize=(21, 21),
+lk_params = dict(winSize=(5, 5),
                  criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 30, 0.01))
 
 
